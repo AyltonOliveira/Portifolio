@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="Logo">AF</div>
+            <ul class="nav-links">
+                <li><a href="#sobre"> Sobre </a></li>
+                <li><a href="#skills"> Skills </a></li>
+                <li><a href="#projetos"> Projetos </a></li>
+                <li><a href="#contato"> Contato </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre" class="dev container fade-in">
+            <div class="dev-texto">
+                <h1> Aylton Feitosa </h1>
+                <p> Eu sou um desenvolvedor full-stack apaixonado, especializado em criar aplicações web bonitas e funcionais</p>
+                <a class="botao-de-contato" href="#contato"> Entre em Contato </a>
+            </div>
+            <div class="dev-img">
+                <img src="dude.png" class="imagem-perfil">
+            </div>
+        </section>
+        
+        <section id="skills" class="container fade-in">
+            <h2> Skills </h2>
+            <div class="skills-grid">
+                <div class="skills-item">
+                    <div class="skills-icon">&#128187;</div>
+                    <h3>Frontend</h3>
+                    <p>HTML, CSS, Javascript, React, React Native</p>
+                </div>
+                <div class="skills-item">
+                    <div class="skills-icon">&#128295;</div>
+                    <h3>Backend</h3>
+                    <p>Node.js, Express, Python, C#</p>
+                </div>
+                <div class="skills-item">
+                    <div class="skills-icon">&#128202;</div>
+                    <h3>Banco</h3>
+                    <p>MongoDB, MySQL</p>
+                </div>
+                <div class="skills-item">
+                    <div class="skills-icon">&#128736;</div>
+                    <h3>Ferramentas</h3>
+                    <p>Git, Docker, AWS</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="container fade-in">
+            <h2>Projetos</h2>
+            <div class="projetos-grid">
+                <div class="projetos-card">
+                    <h3 class="titulo-projeto"> Site de ecommerce</h3>
+                    <p>Plataforma de comercio eletronico totalmente responsiva com autenticacao de usuario e funcionaldiades de pagamentos</p>
+                    <div class="projeto-tags"> 
+                        <span> React </span>
+                        <span> Node.JS </span>
+                        <span> MongoDB</span>
+                    </div>
+                </div>
+                <div class="projetos-card">
+                    <h3 class="titulo-projeto"> APP de Gerenciamento de Tarefas </h3>
+                    <p> Uma aplicação de produtividade pra gerenciar tarefas e projetos com atualizações em tempo real e recursos de colaboração de equipes. </p>
+                    <div class="projeto-tags"> 
+                        <span> React </span>
+                        <span> Firebase </span>
+                        <span> Material UI </span>
+                    </div>
+                </div>    
+                    <div class="projetos-card">
+                        <h3 class="titulo-projeto"> APP de Gerenciamento de Tarefas </h3>
+                        <p> Uma aplicação de produtividade pra gerenciar tarefas e projetos com atualizações em tempo real e recursos de colaboração de equipes. </p>
+                        <div class="projeto-tags"> 
+                            <span> React </span>
+                            <span> Firebase </span>
+                            <span> Material UI </span>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+
+        <section id="contato" class="contato fade-in">
+            <h2 class="titulo-contato"> Contate-me! </h2>
+            <form class="contato-form">
+                <div class="grupo-formulario">
+                    <label for="nome"> Nome </label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="grupo-formulario">
+                    <label for="email"> Email</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <div class="grupo-formulario">
+                    <label for="mensagem"> Mensagem </label>
+                    <textarea name="" id="mensagem" name="mensagem" required></textarea>
+                </div>
+                <button type="submit"> Mandar mensagem</button>
+            </form>
+        </section>
+
+        <footer>
+            <ul class="icones-footer">
+                <li>&#128187</li>
+                <li>&#128101</li>
+                <li>&#128038</li>
+            </ul>
+            <p>&copy; 2024 Aylton Feitosa. Todos os direitos reservados. </p>
+        </footer>
+    </main>
+</body>
+</html>
